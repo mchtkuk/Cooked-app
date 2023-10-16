@@ -1,19 +1,131 @@
 {
-  "posts": [
+  "featured": [
     {
+      "name": "Featured",
+      "type": "featured",
+      "description": "Paid placements for our partners",
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "restaurants": [
+        {
+          "id": 50,
+          "imgUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2022/03/ev-usulu-pizza-yemekcom.jpg",
+          "title": "Delicious Bites",
+          "rating": 4.5,
+          "genre": "Italian",
+          "address": "123 Main Street, Cityville",
+          "short_description": "A taste of Italy in the heart of the city.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 51,
+          "imgUrl": "https://media.istockphoto.com/id/458666461/tr/foto%C4%9Fraf/kfc.jpg?s=612x612&w=0&k=20&c=rm_k49MgPhEHe5miJ4t1p4QJWfahfm9SPvso4SniAGY=",
+          "title": "KFC",
+          "rating": 4.0,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "KFC's original product is pressure fried chicken pieces, seasoned with Sanders' recipe of 11 herbs and spices.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 52,
+          "imgUrl": "https://cdn.yemek.com/mncrop/940/625/uploads/2023/03/burger-king-menu-fiyatlari-2023-3.jpg",
+          "title": "Burger King",
+          "rating": 4.5,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "Hell awaits you!",
+          "long": -73.987456,
+          "lat": 40.748817
+        }
+      ]
     }
   ],
-  "comments": [
+  "offers": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Offers",
+      "type": "offers",
+      "description": "Check out local restaurants!",
+      "id": 2,
+      "restaurants": [
+        {
+          "id": 53,
+          "imgUrl": "https://www.popeyes.com.tr/cmsfiles/widgets/maxi-popchicken-menu.png?v=161",
+          "title": "Pop Eyes",
+          "rating": 4.2,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "Pop Eyes with great chicken.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 54,
+          "imgUrl": "https://cdn.getiryemek.com/restaurants/1614956859944_1125x522.jpeg",
+          "title": "Dominos Pizza",
+          "rating": 3.5,
+          "genre": "Italian",
+          "address": "123 Main Street, Cityville",
+          "short_description": "From humble beginnings as a single pizza restaurant in 1960, Domino's has become today's recognized world leader in pizza delivery.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 55,
+          "imgUrl": "https://media.cnn.com/api/v1/images/stellar/prod/230630103357-subway-beast-sandwich.jpg?c=originalg",
+          "title": "Subway",
+          "rating": 4.7,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "Subway, restaurant chain specializing in submarine sandwiches. In 2002 it became the largest fast-food chain in the United States",
+          "long": -73.987456,
+          "lat": 40.748817
+        }
+      ]
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "discounts": [
+    {
+      "name": "Discounts",
+      "type": "discount",
+      "description": "Everyone's enjoying these juicy discounts!",
+      "id": 3,
+      "restaurants": [
+        {
+          "id": 56,
+          "imgUrl": "https://www.popeyes.com.tr/cmsfiles/widgets/maxi-popchicken-menu.png?v=161",
+          "title": "Starbucks Coffea",
+          "rating": 3.8,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "Pop Eyes with great chicken.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 57,
+          "imgUrl": "https://cdn.getiryemek.com/restaurants/1614956859944_1125x522.jpeg",
+          "title": "Taco Bell",
+          "rating": 4.4,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "From humble beginnings as a single pizza restaurant in 1960, Domino's has become today's recognized world leader in pizza delivery.",
+          "long": -73.987456,
+          "lat": 40.748817
+        },
+        {
+          "id": 58,
+          "imgUrl": "https://media.cnn.com/api/v1/images/stellar/prod/230630103357-subway-beast-sandwich.jpg?c=originalg",
+          "title": "Mcdonald's",
+          "rating": 4.7,
+          "genre": "American",
+          "address": "123 Main Street, Cityville",
+          "short_description": "Subway, restaurant chain specializing in submarine sandwiches. In 2002 it became the largest fast-food chain in the United States",
+          "long": -73.987456,
+          "lat": 40.748817
+        }
+      ]
+    }
+  ]
 }
