@@ -14,6 +14,11 @@
           "genre": "Italian",
           "address": "123 Main Street, Cityville",
           "short_description": "A taste of Italy in the heart of the city.",
+          "dishes": [
+            { "id": 101, "name": "Margherita Pizza", "price": 9.99 },
+            { "id": 102, "name": "Spaghetti Carbonara", "price": 12.99 },
+            { "id": 103, "name": "Tiramisu", "price": 6.99 }
+          ],
           "long": -73.987456,
           "lat": 40.748817
         },
@@ -25,6 +30,11 @@
           "genre": "American",
           "address": "123 Main Street, Cityville",
           "short_description": "KFC's original product is pressure fried chicken pieces, seasoned with Sanders' recipe of 11 herbs and spices.",
+          "dishes": [
+            { "id": 104, "name": "Krunch Burger", "price": 9.99 },
+            { "id": 105, "name": "Zingeratha", "price": 12.99 },
+            { "id": 106, "name": "Chicken & Chips", "price": 6.99 }
+          ],
           "long": -73.987456,
           "lat": 40.748817
         },
@@ -36,6 +46,11 @@
           "genre": "American",
           "address": "123 Main Street, Cityville",
           "short_description": "Hell awaits you!",
+          "dishes": [
+            { "id": 107, "name": "Big King", "price": 9.99 },
+            { "id": 108, "name": "Whooper", "price": 12.99 },
+            { "id": 109, "name": "Steakhouse", "price": 15.99 }
+          ],
           "long": -73.987456,
           "lat": 40.748817
         }

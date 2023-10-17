@@ -29,7 +29,7 @@ export default function Homescreen() {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerShown: false,
+      headerShown: false, 
     });
   }, []);
 
@@ -60,8 +60,8 @@ export default function Homescreen() {
         />
         <View className="flex-1">
           <Text className="font-bold text-gray-300 text-xs">Deliver Now</Text>
-          <Text className="font-bold text-xl text-white">
-            Choose Location
+            <Text className="font-bold text-xl text-white">
+            Current Location
             <ChevronDownIcon size={20} color="white" />
           </Text>
         </View>
