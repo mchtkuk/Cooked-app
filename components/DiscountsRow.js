@@ -25,7 +25,7 @@ const DiscountsRow = ({title, id, description}) => {
 
 
   return (
-    <View>
+    <View className="pb-36">
       <View className="flex-row mt-4 items-center justify-between px-4">
         <Text className="font-bold text-lg">{title}</Text>
         <ArrowRightIcon color="orange"/>

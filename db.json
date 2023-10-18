@@ -15,9 +15,9 @@
           "address": "123 Main Street, Cityville",
           "short_description": "A taste of Italy in the heart of the city.",
           "dishes": [
-            { "id": 101, "name": "Margherita Pizza", "price": 9.99 },
-            { "id": 102, "name": "Spaghetti Carbonara", "price": 12.99 },
-            { "id": 103, "name": "Tiramisu", "price": 6.99 }
+            { "id": 101, "name": "Margherita Pizza", "price": 9.99, "imgUrl": "https://i.lezzet.com.tr/images-xxlarge-recipe/pizza_margarita-8b24f97f-e107-458a-8d62-fb35c2ed4427.jpg" },
+            { "id": 102, "name": "Spaghetti Carbonara", "price": 12.99, "imgUrl": "https://www.allrecipes.com/thmb/Vg2cRidr2zcYhWGvPD8M18xM_WY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg" },
+            { "id": 103, "name": "Tiramisu", "price": 6.99, "imgUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/03/kedidili-tiramisu-yemekcom.jpg" }
           ],
           "long": -73.987456,
           "lat": 40.748817
@@ -31,9 +31,9 @@
           "address": "123 Main Street, Cityville",
           "short_description": "KFC's original product is pressure fried chicken pieces, seasoned with Sanders' recipe of 11 herbs and spices.",
           "dishes": [
-            { "id": 104, "name": "Krunch Burger", "price": 9.99 },
-            { "id": 105, "name": "Zingeratha", "price": 12.99 },
-            { "id": 106, "name": "Chicken & Chips", "price": 6.99 }
+            { "id": 104, "name": "Krunch Burger", "price": 9.99, "imgUrl": "https://pimagerepository.texaschicken.com/e6bd97de-e0ed-4f47-b705-2a55d3515524.png" },
+            { "id": 105, "name": "Zingeratha", "price": 12.99, "imgUrl": "https://giftsandall.com/wp-content/uploads/2022/10/Zingeratha-Deal-From-KFC-copy-600x600.jpg" },
+            { "id": 106, "name": "Chicken & Chips", "price": 6.99, "imgUrl": "https://drumstix.com.ng/wp-content/uploads/2020/04/DRUMSTIX-1.jpg" }
           ],
           "long": -73.987456,
           "lat": 40.748817
@@ -47,9 +47,9 @@
           "address": "123 Main Street, Cityville",
           "short_description": "Hell awaits you!",
           "dishes": [
-            { "id": 107, "name": "Big King", "price": 9.99 },
-            { "id": 108, "name": "Whooper", "price": 12.99 },
-            { "id": 109, "name": "Steakhouse", "price": 15.99 }
+            { "id": 107, "name": "Big King", "price": 9.99, "imgUrl": "https://www.burgerking.com.tr/cmsfiles/products/big-king-jr-menu.png?v=293" },
+            { "id": 108, "name": "Whooper", "price": 12.99, "imgUrl": "https://i1.sndcdn.com/artworks-6J6txnBG5FhLyp0X-eyfNTA-t500x500.jpg" },
+            { "id": 109, "name": "Steakhouse", "price": 15.99, "imgUrl": "https://kalorisor.com/uploads/images/urun/burger-king-bk-steakhouse-burger-sandvic.jpg" }
           ],
           "long": -73.987456,
           "lat": 40.748817
@@ -72,6 +72,11 @@
           "genre": "American",
           "address": "123 Main Street, Cityville",
           "short_description": "Pop Eyes with great chicken.",
+          "dishes": [
+            { "id": 110, "name": "Chicken Sandwich", "price": 9.99, "imgUrl": "https://www.foodandwine.com/thmb/havJoYPyKYh90noZp25vWbX-czc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Popeyes-New-Chicken-Sandwich-Flavor-FT-BLOG0522-2e66f70948bf44e3b8974d121de2f72e.jpg" },
+            { "id": 111, "name": "Popeyes Deluxe Chicken Sandwich", "price": 12.99, "imgUrl": "https://kalorisor.com/uploads/images/urun/popeyes-chicken-cheese-deluxe-sandvic-menu.jpg" },
+            { "id": 112, "name": "Classic Wrap", "price": 15.99, "imgUrl": "https://mma.prnewswire.com/media/2159294/Popeyes_Louisiana_Kitchen__Inc__Popeyes_Unveils_Latest_Culinary.jpg?p=facebook" }
+          ],
           "long": -73.987456,
           "lat": 40.748817
         },
