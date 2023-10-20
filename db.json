@@ -19,8 +19,8 @@
             { "id": 102, "name": "Spaghetti Carbonara", "price": 12.99, "imgUrl": "https://www.allrecipes.com/thmb/Vg2cRidr2zcYhWGvPD8M18xM_WY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg" },
             { "id": 103, "name": "Tiramisu", "price": 6.99, "imgUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/03/kedidili-tiramisu-yemekcom.jpg" }
           ],
-          "long": -73.987456,
-          "lat": 40.748817
+          "long": 40.5169678,
+          "lat": 41.0263034
         },
         {
           "id": 51,
