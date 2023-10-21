@@ -7,6 +7,7 @@ import { store } from "./store";
 import BasketScreen from "./screens/BasketScreen";
 import PreparingScreen from "./screens/PreparingScreen";
 import DeliveryScreen from "./screens/DeliveryScreen";
+import SearchScreen from "./screens/SearchScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App() {
         options={{presentation: 'modal', headerShown: false}} />
         <Stack.Screen name="Preparing" options={{presentation: 'fullScreenModal', headerShown: false}} component={PreparingScreen} />
         <Stack.Screen name="Delivery" options={{presentation: 'fullScreenModal', headerShown: false}} component={DeliveryScreen} />
+        <Stack.Screen name="Search" component={SearchScreen}/>
       </Stack.Navigator>
       </Provider>
     </NavigationContainer>

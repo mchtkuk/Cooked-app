@@ -29,7 +29,7 @@ export default function Homescreen() {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerShown: false, 
+      headerShown: false,
     });
   }, []);
 
@@ -60,7 +60,7 @@ export default function Homescreen() {
         />
         <View className="flex-1">
           <Text className="font-bold text-gray-300 text-xs">Deliver Now</Text>
-            <Text className="font-bold text-xl text-white">
+          <Text className="font-bold text-xl text-white">
             Current Location
             <ChevronDownIcon size={20} color="white" />
           </Text>
@@ -75,6 +75,7 @@ export default function Homescreen() {
             className="bg-white w-full rounded p-2"
             placeholder="Food and Cuisines"
             keyboardType="default"
+            onPressIn={() => navigation.navigate("Search")}
           />
         </View>
         <AdjustmentsHorizontalIcon color="white" />
