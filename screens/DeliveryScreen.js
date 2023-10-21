@@ -19,8 +19,6 @@ const DeliveryScreen = () => {
 
   const navigation = useNavigation();
 
-  console.log(restaurant.lat, restaurant.long);
-
   return (
     <View className="bg-orange-500 flex-1">
       <SafeAreaView className="z-50">
